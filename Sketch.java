@@ -7,8 +7,9 @@ public class Sketch extends PApplet {
   }
 
   public void setup() {
-    background(222);
+    background(150);
      //toes
+     noStroke();
     fill(127, 42, 60);
     ellipse(50,70,30,50);
     ellipse(90,50,30,50);
